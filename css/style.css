@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +7,9 @@
 }
 
 body {
-  background-color: red;
+  background-color: #333;
   text-align: center;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
@@ -20,10 +23,12 @@ body {
   height: 100%;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 25px;
+  margin: 15px;
 }
 
 .grid-12 {
-  background-color: aqua;
+  background-color: #1abc9c;
+  padding: 20px 0;
 }
 
 .half-width {
@@ -31,10 +36,12 @@ body {
   height: 100%;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 25px;
+  margin: 15px;
 }
 
 .grid-6 {
-  background-color: blueviolet;
+  background-color: #1abc9c;
+  padding: 20px 0;
 }
 
 .third-width {
@@ -42,10 +49,12 @@ body {
   height: 100%;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 25px;
+  margin: 15px;
 }
 
 .grid-4 {
-  background-color: burlywood;
+  background-color: #1abc9c;
+  padding: 20px 0;
 }
 
 .quater-width {
@@ -53,19 +62,72 @@ body {
   height: 100%;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 25px;
+  margin: 15px;
+}
+
+.sixth-width {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 25px;
+  margin: 15px;
+}
+
+.grid-6 {
+  background-color: #1abc9c;
+  padding: 20px 0;
 }
 
 .grid-3 {
-  background-color: cornflowerblue;
+  background-color: #1abc9c;
+  padding: 20px 0;
 }
 
 .single-width {
   display: grid;
   height: 100%;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 25px;
+  margin: 15px;
 }
 
 .grid-1 {
-  background-color: darkcyan;
+  background-color: #1abc9c;
+  padding: 20px 0;
+}
+
+.sixty-thirty-width {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 66% 33%;
+  grid-gap: 25px;
+  margin: 15px;
+}
+
+.grid-sixty,
+.grid-thirty {
+  background-color: #1abc9c;
+  padding: 20px 0;
+}
+
+.eighty-twenty-width {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 80% 20%;
+  grid-gap: 25px;
+  margin: 15px;
+}
+
+.grid-eighty,
+.grid-twenty {
+  background-color: #1abc9c;
+  padding: 20px 0;
+}
+
+.thirty-thirty-fourty {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 30% 30% 40%;
+  grid-gap: 25px;
+  margin: 15px;
 }
